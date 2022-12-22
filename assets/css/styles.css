@@ -290,7 +290,7 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 350px;
 }
 
 .home__data {
@@ -1053,6 +1053,12 @@ img {
   .home__data {
     grid-column: initial;
   }
+  /* .home__img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+  } */
   .home__img {
     order: 1;
     justify-self: center;
