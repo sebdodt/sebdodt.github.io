@@ -320,26 +320,26 @@ img {
 }
 
 .skills__html {
-  width: 100%;
+  width: 0%;
 }
 
 .skills__css {
-  width: 100%;
+  width: 0%;
 }
 
 .skills__js {
-  width: 100%;
+  width: 0%;
 }
 
 .skills__ux {
-  width: 100%;
+  width: 0%;
 }
 
 .skills__img {
   border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
+/* ===== PROJECTS =====*/
 .work__container {
   row-gap: 2rem;
 }
