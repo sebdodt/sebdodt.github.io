@@ -1,4 +1,4 @@
-# Delivery Hero. (Concept website for delivery company.) 🚚
+# Sebastian Dodt. (Concept website for delivery company.) 🚚
 (Design inspired from bedimcode)
 ### Responsive Website
 
@@ -8,5 +8,5 @@
 - Responsive website.
 
 ## Website Preview
-### [Delivery Hero](https://shz-code.github.io/delivery-hero/)
+### [Sebastian Dodt](https://shz-code.github.io/delivery-hero/)
 ![Delivery website](./website-preview.jpeg)
