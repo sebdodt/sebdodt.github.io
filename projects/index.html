@@ -20,7 +20,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Sebastian Dodt</a>
+                <a href="/#" class="nav__logo">Sebastian Dodt</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -79,7 +79,7 @@
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
-            <section class="home section" id="home">
+            <section class="home section" id="home2">
                 <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__data">
@@ -97,104 +97,87 @@
 
                 <div class="work__filters">
                     <span class="work__item active-work" data-filter='all'>All</span>
-                    <span class="work__item" data-filter='.web'>Web</span>
-                    <span class="work__item" data-filter='.movil'>Movil</span>
-                    <span class="work__item" data-filter='.design'>Design</span>
+                    <span class="work__item" data-filter='.ds' data-sort="order:asc">Data Science</span>
+                    <span class="work__item" data-filter='.da' data-sort="order:asc">Data Analytics</span>
+                    <span class="work__item" data-filter='.ss' data-sort="order:asc">Social Science</span>
+                </div>                
+                <div class="work__filters">
+                    <span class="work__item" data-filter='.py' data-sort="order:asc">Python</span>
+                    <span class="work__item" data-filter='.r' data-sort="order:asc">R</span>
+                    <span class="work__item" data-filter='.sql' data-sort="order:asc">SQL</span>
+                    <span class="work__item" data-filter='.js' data-sort="order:asc">JavaScript</span>
                 </div>
 
                 <div class="work__container container_work grid_work">
-                    <div class="work__card mix web">
+                    <div class="work__card mix da r py" data-order="1">
                         <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-                        <img src="assets/img/work1.jpg" alt="" class="work__img">
+                        <img src="assets/img/iuu.jpg" alt="" class="work__img">
 
-                        <h3 class="work__title">Web design</h3>
+                        <h3 class="work__title">Prioritising Resources <br> to Combat Illegal Fishing</h3>
+                        <span class="qualification__subtitle">National Geospatial-Intelligence Agency</span>
                         
-                        <a href="" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        <a href="assets/pdf/iuu_report.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Report <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                        <a href="https://github.com/sebdodt/illegal_fishing_dashboard" class="work__button" target="_blank" rel="noopener noreferrer">
+                            GitHub <i class='bx bx-right-arrow-alt work__icon' ></i>
                         </a>
                     </div>
 
-                    <div class="work__card mix movil">
-                        <img src="assets/img/work2.jpg" alt="" class="work__img">
+                    <div class="work__card mix ds py sql" data-order="2">
+                        <img src="assets/img/mental_health.jpg" alt="" class="work__img">
 
-                        <h3 class="work__title">App movil</h3>
+                        <h3 class="work__title">Optimising mental health <br>outreach for ex-inmates</h3>
+                        <span class="qualification__subtitle">Carnegie Mellon University &<br>Johnson County Mental Health Center</span>
                         
-                        <a href="" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        <a href="assets/pdf/mlpp_report.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Report <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                        <a href="assets/pdf/mlpp_presentation.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Presentation <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                        <a href="https://github.com/dssg/mlpolicylab_fall22_mcrt1" class="work__button" target="_blank" rel="noopener noreferrer">
+                            GitHub <i class='bx bx-right-arrow-alt work__icon' ></i>
                         </a>
                     </div>
 
-                    <div class="work__card mix design">
-                        <img src="assets/img/work3.jpg" alt="" class="work__img">
+                    <div class="work__card mix ds py" data-order="5">
+                        <img src="assets/img/drought.jpg" alt="" class="work__img">
 
-                        <h3 class="work__title">Brand design</h3>
+                        <h3 class="work__title">Optimising water pricing <br>in California</h3>
+                        <span class="qualification__subtitle">Carnegie Mellon University</span>
                         
-                        <a href="" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        <a href="assets/pdf/drought_report.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Report <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                        <a href="assets/pdf/drought_presenation.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Presentation <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a>
+                        <a href="https://github.com/sebdodt/drought-policy-optimization" class="work__button" target="_blank" rel="noopener noreferrer">
+                            GitHub <i class='bx bx-right-arrow-alt work__icon' ></i>
                         </a>
                     </div>
 
-                    <div class="work__card mix web">
-                        <img src="assets/img/work4.jpg" alt="" class="work__img">
+                    <div class="work__card mix da py r" data-order="5">
+                        <img src="assets/img/covax.jpg" alt="" class="work__img">
 
-                        <h3 class="work__title">Web design</h3>
+                        <h3 class="work__title">COVAX Data Analytics Pipeline</h3>
+                        <span class="qualification__subtitle">Dalberg Data Insights</span>
                         
-                        <a href="" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        <!-- <a href="assets/pdf/drought_report.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Report <i class='bx bx-right-arrow-alt work__icon' ></i>
                         </a>
-                    </div>
-
-                    <div class="work__card mix movil">
-                        <img src="assets/img/work5.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">App movil</h3>
-                        
-                        <a href="" class="work__button">
-                            Demo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        <a href="assets/pdf/drought_presenation.pdf" class="work__button" target="_blank" rel="noopener noreferrer">
+                            Presentation <i class='bx bx-right-arrow-alt work__icon' ></i>
                         </a>
+                        <a href="https://github.com/sebdodt/drought-policy-optimization" class="work__button" target="_blank" rel="noopener noreferrer">
+                            GitHub <i class='bx bx-right-arrow-alt work__icon' ></i>
+                        </a> -->
                     </div>
                 </div>
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section_work" id="about">
-                <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My introduction</span>
-
-                <div class="about__container container_work grid_work">
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
-
-                    <div class="about__data">
-                        <p class="about__description">I'm currently a graduate student in Data Science at Carnegie Mellon University. Having worked on issues related to sustainability, development, public and personal health, and humanitarian assistance, I am hoping to solve challenges using my breadth of experiences in computational, social, and management science.
-                        </p>
-
-                        <div class="about__info">
-
-                            <div>
-                                <span class="about__info-title">20+</span>
-                                <span class="about__info-name">Completed <br> projects</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title">5+</span>
-                                <span class="about__info-name">Organisations <br> worked</span>
-                            </div>
-
-                            <div>
-                                <span class="about__info-title"> </span>
-                                <span class="about__info-name"> </span>
-                            </div>
-                        </div>
-
-                        <div class="about__buttons">
-                            <!--==================== Change your CV ====================-->
-                            <a download="" href="assets/pdf/Sebastian-Cv.pdf" class="button button--flex">
-                                Download CV <i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!--==================== SKILLS ====================-->
 
