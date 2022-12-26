@@ -142,7 +142,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__title, .section__subtitle {
+.section__title, .section__subtitle, .work__button {
   text-align: center;
 }
 
@@ -724,6 +724,17 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
+.work__button {
+  width: max-content;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: block;
+  align-items: center;
+  column-gap: .25rem;
+  text-align: center;
+}
+
+
 .portfolio__container {
   overflow: initial;
 }
@@ -1089,7 +1100,7 @@ img {
   .section {
     padding: 6rem 0 2rem;
   }
-  .section__subtitle {
+  .section__subtitle, .work__button {
     margin-bottom: 4rem;
   }
   .header {
