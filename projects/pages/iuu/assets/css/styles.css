@@ -1101,8 +1101,11 @@ img {
   .section {
     padding: 6rem 0 2rem;
   }
-  .section__subtitle, .work__button {
+  .section__subtitle {
     margin-bottom: 4rem;
+  }
+  .work__button {
+    margin-bottom: 1.5rem;
   }
   .header {
     top: 0;
@@ -1274,4 +1277,8 @@ img {
   border-radius: 1rem;
   margin-bottom: .75rem;
 
+}
+
+.work__button:hover .work__icon {
+  transform: translateX(-.25rem);
 }
